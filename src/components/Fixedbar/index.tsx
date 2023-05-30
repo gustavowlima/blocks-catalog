@@ -9,7 +9,7 @@ export const Fixedbar = () => {
       </span>
 
       <div className="flex items-center justify-center rounded-lg bg-white-50 bg-purpleGradient p-[2px]">
-        <button className="flex h-[43px] w-[235px] items-center justify-between rounded-lg bg-transparent px-4 text-white-100 transition-colors hover:bg-black-100">
+        <button className="flex h-[43px] w-[235px] font-semibold items-center justify-between rounded-lg bg-transparent px-4 text-white-100 transition-colors hover:bg-black-100">
           Quero ser Premium
           <div className="flex items-center justify-center space-x-2 ">
             <span className="flex h-[27px] w-[2px] bg-white-50" />
