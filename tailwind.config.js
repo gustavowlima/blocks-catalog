@@ -16,6 +16,7 @@ export default {
           100: "#FFFFFF",
         },
         gray: {
+          50: "#E9E9E9",
           100: "#CCCCCC",
         },
         purple: {
@@ -25,7 +26,8 @@ export default {
       },
 
       fontSize: {
-        title : "1.75rem",
+        title : "1.9rem",
+        productTitle: '0.625rem'
       },
 
       backgroundImage: {
