@@ -1,8 +1,8 @@
 import { Fixedbar } from "../components/Fixedbar";
 
 import blocksWebLogo from "../assets/blocks-web-logo.png";
-import product from "../assets/product.png";
-import { ReactComponent as ArrowUpRight } from "../assets/arrow-up-right.svg";
+import { ProductCard } from "../components/ProductCard";
+import { Footer } from "../components/Footer";
 
 export const Home = () => {
   return (
@@ -24,19 +24,15 @@ export const Home = () => {
       </div>
 
       {/* Results container */}
-      <div className="mt-[34px] flex w-full flex-col px-48">
+      <div className="mt-[34px] flex w-full flex-col space-y-4 px-48">
         <h2 className="text-left text-2xl font-normal ">Resultados</h2>
 
-        <div>
-          <div>
-            <img src={product} alt="Produto" />
-            <div>
-              <p>Lorem Ipsum is sLorem Ipsum is simply ....</p>
-              <ArrowUpRight />
-            </div>
-          </div>
+        <div className="flex flex-wrap gap-4">
+          <ProductCard />
         </div>
       </div>
+
+      <Footer />
     </>
   );
 };
