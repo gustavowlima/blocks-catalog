@@ -35,7 +35,31 @@ export default {
         blackImage: "linear-gradient(90deg, #202020 0%, #202020 100%)"
 
       },
+
+      keyframes: {
+        slideTop: {
+          '0%': {
+            transform: 'translateY(150px)'
+          },
+          '100%': {
+            transform: 'translateY(0)'
+          }
+        },
+        slideBottom: {
+          '0%': {
+            transform: 'translateY(0)'
+          },
+          '100%': {
+            transform: 'translateY(250px)'
+        }
+      }
+      },
+      
+      animation: {
+        slideTop: 'slideTop 0.6s ease-in-out both',
+        slideBottom: 'slideBottom 0.6s ease-in-out both'
     },
+  }
   },
   plugins: [],
 };
