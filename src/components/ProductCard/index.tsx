@@ -16,13 +16,13 @@ export const ProductCard: React.FC<FamilyProps> = ({ family }) => {
           <Skeleton height={100} width={100} />
         ) : (
           <img
-            className="w-36"
+            className="w-36 max-h-[155px]"
             src={getFamilyImageURL(family.id)}
             alt="Produto"
           />
         )}
-
       </div>
+      
       <div className="flex h-9 w-full items-center justify-center border-t-2 border-solid border-gray-100">
         {family === undefined ? (
           <Skeleton height={20} width={152} />

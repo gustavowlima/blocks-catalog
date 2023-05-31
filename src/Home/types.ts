@@ -8,3 +8,8 @@ export interface DetailsProps  {
   name: string;
   description: string;
 }
+
+export interface SearchParamsProps {
+  skip: number;
+  take: number;
+}
