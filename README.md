@@ -40,7 +40,7 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias:
 git clone git@github.com:gustavowlima/blocks-catalog.git
 
 # Entrar no diretório
-cd cd blocks-catalog/
+cd blocks-catalog/
 
 # Instalar as dependências
 yarn install
