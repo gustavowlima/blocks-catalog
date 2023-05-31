@@ -8,7 +8,7 @@ export const Fixedbar = () => {
     <div
       className={`${
         visibled ? "animate-slideTop" : "animate-slideBottom"
-      } fixed bottom-0 z-50 flex h-[186px] w-full flex-col items-center justify-center gap-6 space-x-5 bg-black-100 px-6 py-4 sm:top-0 sm:h-[67px] sm:flex-row sm:animate-none`}
+      } fixed bottom-0 z-50 flex h-auto w-full flex-col items-center justify-center gap-6 space-x-5 bg-black-100 px-6 py-4 sm:top-0 sm:h-[67px] sm:flex-row sm:animate-none`}
     >
       <div
         className="flex cursor-pointer items-center justify-center gap-1 text-white-100 sm:hidden"
